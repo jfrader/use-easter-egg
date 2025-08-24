@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     dts({
+      tsconfigPath: "./tsconfig.app.json",
       insertTypesEntry: true,
       copyDtsFiles: true,
     }),
