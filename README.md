@@ -1,6 +1,6 @@
 # useEasterEgg
 
-It's a hook to add easter eggs that activate with a cheatcode
+It's a React hook to add easter eggs that activate with a cheatcode
 
 
 ## Installation
