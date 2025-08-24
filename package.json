@@ -1,6 +1,6 @@
 {
   "name": "use-easter-egg",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "files": [
     "dist"
   ],
@@ -19,12 +19,14 @@
     "preview": "vite preview",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "vite-plugin-dts": "^4.5.0"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "vite-plugin-dts": "^4.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "@eslint/js": "^9.21.0",
     "@types/node": "^22.13.5",
     "@types/react": "^19.0.10",
